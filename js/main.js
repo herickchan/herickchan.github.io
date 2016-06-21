@@ -100,14 +100,14 @@ jQuery(function($) {'use strict';
 			clickable: false
 		});
 
-		map.addMarker({
-			lat: 43.858381,
-			lng: -79.3375148,
-			animation: google.maps.Animation.DROP,
-			verticalAlign: 'bottom',
-			horizontalAlign: 'center',
-			backgroundColor: '#3e8bff',
-		});
+		// map.addMarker({
+		// 	lat: 43.858381,
+		// 	lng: -79.3375148,
+		// 	animation: google.maps.Animation.DROP,
+		// 	verticalAlign: 'bottom',
+		// 	horizontalAlign: 'center',
+		// 	backgroundColor: '#3e8bff',
+		// });
 	}
 
 });
