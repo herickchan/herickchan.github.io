@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Unity-chan: Endless Runner | Herick Chan</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet"> 
+    <link href="css/animate.min.css" rel="stylesheet"> 
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+</head><!--/head-->
+
+<body>
+    <header id="header">      
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 overflow">
+                   <div class="social-icons pull-right">
+                        <ul class="nav nav-pills">
+                            <li><a href="https://www.facebook.com/herick.chan"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://github.com/herickchan"><i class="fa fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/herickchan"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="mailto:herick.chan@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div> 
+                </div>
+             </div>
+        </div>
+        <div class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+                        <h1><i><strong>Herick Chan</strong></i></h1>
+                        <p>Software/Game Developer</p>
+                    </a>
+                    
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="portfolio.html">Portfolio</a></li> 
+                        <li><a href="contact.html ">Contact</a></li>                    
+                    </ul>
+                </div>
+                <div class="search">
+                    <form role="form">
+                        <i class="fa fa-search"></i>
+                        <div class="field-toggle">
+                            <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--/#header-->
+
+    <section id="portfolio-information" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="images/portfolio/5/cover.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-sm-6">
+                    <div class="project-name overflow">
+                        <h2 class="bold">Unity-chan: Endless Runner </h2>
+                        <ul class="nav navbar-nav navbar-default">
+                            <li><a href="#"><i class="fa fa-clock-o"></i>September 9th, 2016</a></li>
+                            <li><a href="#"><i class="fa fa-tag"></i>Complete </a></li>
+                        </ul>
+                    </div>
+                    <div class="project-info overflow">
+                        <h3>Project Info</h3>
+                        <p>This is simple endless runner game starring the free asset character Unity-chan. It features procedural generation of background and obstacles and saves the highest score into
+                            a file using serialization. This project allowed me to practice the techniques freuently used in endless runner games.</p>
+                        <p>The gameplay is very simple. The objective is simply to jump over the incoming obstacles as the character continues to run down the path. Pressing jump briefly will make Unity-chan 
+                        jump at normal height while holding jump for more than 0.5 seconds will cause her to jump higher for avoiding taller obstacles. Upon death, the score will be saved as a high score if it was higher than the previous high score. This score will then be stored inside a file and loaded again on the next playthrough as the high score.</p>
+                        <ul class="elements">
+                            <li><i class="fa fa-angle-right"></i> Learned procedural generation with obstacles</li>
+                            <li><i class="fa fa-angle-right"></i> Good practice with endless runner style of game design</li>
+                            <li><i class="fa fa-angle-right"></i> Learned to do save data management using serialization</li>
+                            <li><i class="fa fa-angle-right"></i> Used limited assets to create a basic project</li>
+                        </ul>
+                    </div>
+                    <div class="skills overflow">
+                        <h3>Skills:</h3>
+                        <ul class="nav navbar-nav navbar-default">
+                            <li><a href="#"><i class="fa fa-check-square"></i>Save Data Management</a></li>
+                            <li><a href="#"><i class="fa fa-check-square"></i>Unity</a></li>
+                            <li><a href="#"><i class="fa fa-check-square"></i>C#</a></li>
+                            <li><a href="#"><i class="fa fa-check-square"></i>Procedural Generation</a></li>
+                        </ul>
+                    </div>
+                    <div class="live-preview">
+                        <a href="https://github.com/herickchan/Endless-Runner" class="btn btn-common uppercase">Source</a>
+                        <a href="samples/endlessrun.zip" target="_blank" class="btn btn-common uppercase">Try it! </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--/#portfolio-information-->
+
+    <section id="related-work" class="padding-top padding-bottom">
+        <div class="container">
+            <div class="row">
+                <h1 class="title text-center">Gallery</h1>
+                <div class="col-sm-3">
+                     <a href="images/portfolio/5/cover.png" data-lightbox="p2"> <img src="images/portfolio/5/coverS.png" data-lightbox="p5" /></a>
+                     <div class="portfolio-info "></div>
+                </div>
+                <div class="col-sm-3">
+                     <a href="images/portfolio/5/start.png" data-lightbox="p2"> <img src="images/portfolio/5/startS.png" data-lightbox="p5" /></a>
+                     <div class="portfolio-info "></div>
+                </div>
+                <div class="col-sm-3">
+                     <a href="images/portfolio/5/gameplay.png" data-lightbox="p2"> <img src="images/portfolio/5/gameplayS.png" data-lightbox="p5" /></a>
+                     <div class="portfolio-info "></div>
+                </div>
+                <div class="col-sm-3">
+                     <a href="images/portfolio/5/gameplay2.png" data-lightbox="p2"> <img src="images/portfolio/5/gameplay2S.png" data-lightbox="p5" /></a>
+                     <div class="portfolio-info "></div>
+                </div>
+                <div class="col-sm-3">
+                     <a href="images/portfolio/5/gameplay3.png" data-lightbox="p2"> <img src="images/portfolio/5/gameplay3S.png" data-lightbox="p5" /></a>
+                     <div class="portfolio-info "></div>
+                </div>
+                <div class="col-sm-3">
+                     <a href="images/portfolio/5/gameplay4.png" data-lightbox="p2"> <img src="images/portfolio/5/gameplay4S.png" data-lightbox="p5" /></a>
+                     <div class="portfolio-info "></div>
+                </div>
+                <div class="col-sm-3">
+                     <a href="images/portfolio/5/results.png" data-lightbox="p2"> <img src="images/portfolio/5/resultsS.png" data-lightbox="p5" /></a>
+                     <div class="portfolio-info "></div>
+                </div>            
+
+            </div>
+        </div>
+    </section>
+    <!--/#related-work-->
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>  
+</body>
+</html>
